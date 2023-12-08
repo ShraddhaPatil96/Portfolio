@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animated Portfolio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2 class="heading">
+            <span class="skyBlue">My</span>
+            <span>Portfolio.</span>
+        </h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Tesimonials</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="hamburger" id="menuBar">
+            <li><i class="fa-solid fa-bars"></i></li>
+        </ul>
+        <div class="lists" id="menuLists">
+            <li id="cross"><i class="fa-solid fa-xmark"></i></li>
+            <ul class="items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Tesimonials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="mainSection">
+        <div class="content">
+            <h2 class="title">
+                <span class="minorHeading">
+                    Hey
+                </span><br>
+                <span class="mainHeading">
+                    I'm <span class="danger">Raju |</span>
+                </span>
+            </h2>
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, maxime earum. Ratione repudiandae
+                officia odit? Praesentium id ullam, laborum sapiente culpa vero, perspiciatis tenetur facilis dolore sed
+                possimus.
+            </p>
+            <div class="buttons">
+                <button class="hireBtn">Hire Me</button>
+                <button class="chat"><i class="fa-brands fa-rocketchat"></i>Let's talk</button>
+            </div>
+            <div class="social">
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+            </div>
+        </div>
+        <div class="user">
+            <img src="/image/portfolioUser.png" alt="User Image">
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
